@@ -1,0 +1,35 @@
+{
+    "files": [
+        {
+
+            "id": 1,
+            "adjency": [
+                "AAA",
+                "AAA",
+                "AAA",
+                "AAA"
+            ]
+        },
+        {
+
+            "id": 2,
+            "adjency": {
+                "N":"AAA",
+                "W":"AAA",
+                "E":"AAA",
+                "S":"AAA"
+            }
+        },
+        {
+
+            "id": 3,
+            "adjency": {
+                "N":"AAA",
+                "W":"AAA",
+                "E":"AAA",
+                "S":"AAA"
+            }
+        }
+    ]
+
+}

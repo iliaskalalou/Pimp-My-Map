@@ -1,0 +1,39 @@
+[package]
+name = "pimp_my_map"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+raylib = "3.7.0"
+noise = "0.7.0"
+
+serde = { version = "1.0.104", features = ["derive"] }
+serde_json = "1.0.48"
+
+[[bin]]
+name = "wfc"
+path = "src/wave_function_collapse/main.rs"
+
+[[bin]]
+name = "perlin-noise"
+path = "src/perlin_noise/main.rs"
+
+[[bin]]
+name = "display"
+path = "src/display/main.rs"
+noise = "0.7.0"
+
+[[bin]]
+name = "diamond_square"
+path = "src/diamond_square/main.rs"
+
+[[bin]]
+name = "ui"
+path = "src/main.rs"
+
+[[bin]]
+name = "export"
+path = "src/obj_export/main.rs"
